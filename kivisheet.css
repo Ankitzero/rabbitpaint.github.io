@@ -1,0 +1,64 @@
+body
+{
+background-color:GRAY;
+}
+
+.one
+{
+color:red;
+}
+
+.uqe
+{
+    height:85%;
+    width:20%;
+    float:left
+}
+
+.two
+{
+    align:center;
+height:30px;
+width:90%;
+margin: 0px auto;
+
+}
+
+canvas
+{
+display:block;
+border: 1px Solid black;
+margin: 10px auto 0px;
+background-color:white;
+}
+
+input
+{
+height:100%;
+width:20%;
+float:left
+}
+button
+{
+    height:100%;
+width:20%;
+float:left;
+}
+select
+{
+    height:100%;
+width:19%;
+float:left;
+}
+/*
+#colors input
+{
+width:100%;
+height:100%;
+margin-top:5px;
+}*/
+
+#colors button:hover
+{
+opacity: 0.5;
+}
