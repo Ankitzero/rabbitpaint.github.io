@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>rabbit - paint</title>
+<link rel="stylesheet" type="text/css" href="kivisheet.css">
+</head>
+<body>
+<section align="center">		
+<div class="two" align="center">
+<input type="color" id="favcolor" value="#000000" onmouseout="myFunction();">
+<button onclick="eraser();">ERASER</button>
+<button onclick="fillcanvas();">BACKGROUND COLOR</button>
+<!---<button onclick="photo();">PHOTO</button>-->
+<select id="brush" name="size" onchange="brushsize();">
+<option value="5">5</option>
+   
+ <option value="10">10</option>
+  
+  <option value="15">15</option>
+  
+  <option value="20">20</option>
+   
+ <option value="25">25</option>
+<option value="30">30</option>
+<option value="35">35</option>
+</select>
+<input id="fineit" class="uqe" type="text" placeholder="TEXT AREA" onchange="textsee();">
+</div>
+<div class="three">
+<canvas id="canvas" height="500" width="1200">
+</canvas>
+</div>
+</section>
+<script type="text/javascript" src="elephant.js">
+</script>
+</body>
+</html>
