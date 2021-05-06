@@ -1,3 +1,3 @@
 # rabbitpaint
-a simple web based paint application written in html , css and javascript
-download these three files and then rename index.txt to index.html all done !
+a simple web based paint application using html , css and javascript</br>
+<a href="https://ankitzero.github.io/rabbitpaint.github.io/">App Link</a>
