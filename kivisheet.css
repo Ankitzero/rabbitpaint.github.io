@@ -48,14 +48,12 @@ float:left
 button
 {
     height:100%;
-width:20%;
-float:left;
+width:10%;
 }
 select
 {
     height:100%;
 width:19%;
-float:left;
 }
 /*
 #colors input
